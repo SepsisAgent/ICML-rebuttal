@@ -1,17 +1,81 @@
 # ICML-rebuttal
 
-|Test|Method|WIS|WPDIS|DR|
-|---|---|---|---|---|
-|IV-4k|Clinician|5.25[4.8,5.7]|10.62[8.6,12.5]|5.44[3.9,7.1]|
-||AI Clinician|9.99[2.6,13.6]|10.01[3.7,15.0]|**9.90[4.4,14.6]\#1**|
-||DDQN|6.19[-4.8,5.7]|15.14[2.0,32.5]|8.41[-5.0,22.4]|
-||WD3QNE|11.11[5.2,14.7]\#2|**24.00[19.4,29.6]\#1**|7.86[3.4,12.5]|
-||SepsisAgent(ours)|**13.05[12.0,13.6]\#1**|23.53[12.1,32.9]\#2|9.50[7.6,11.2]\#2|
-|III-2862(OOD)|Clinician|5.77[5.2,6.3]|14.92[13.3,16.7]|5.90[4.3,7.6]|
-||AI Clinician|6.39[-9.5,12.8]|14.25[-2.9,29.4]|9.91[7.3,13.0]\#2|
-||DDQN|6.03[1.0,10.3]|14.56[9.9,20.1]|7.03[-11.6,19.5]|
-||WD3QNE|9.16[-1.4,12.8]\#2|**18.67[8.4,27.9]\#1**|6.40[-1.5,13.3]|
-||SepsisAgent(ours)|**11.50[2.6,14.0]\#1**|16.22[6.2,26.7]\#2|**10.08[3.1,17.5]\#1**|
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Test</th>
+      <th>Method</th>
+      <th>WIS (95% IC)</th>
+      <th>WPDIS (95% IC)</th>
+      <th>DR (95% IC)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5">IV-4k</td>
+      <td>Clinician</td>
+      <td>5.25 [4.8, 5.7]</td>
+      <td>10.62 [8.6, 12.5]</td>
+      <td>5.44 [3.9, 7.1]</td>
+    </tr>
+    <tr>
+      <td>AI Clinician</td>
+      <td>9.99 [2.6, 13.6]</td>
+      <td>10.01 [3.7, 15.0]</td>
+      <td><strong>9.90 [4.4, 14.6]</strong></td>
+    </tr>
+    <tr>
+      <td>DDQN</td>
+      <td>6.19 [-4.8, 5.7]</td>
+      <td>15.14 [2.0, 32.5]</td>
+      <td>8.41 [-5.0, 22.4]</td>
+    </tr>
+    <tr>
+      <td>WD3QNE</td>
+      <td><u>11.11 [5.2, 14.7]</u></td>
+      <td><strong>24.00 [19.4, 29.6]</strong></td>
+      <td>7.86 [3.4, 12.5]</td>
+    </tr>
+    <tr>
+      <td><strong>SepsisAgent(ours)</strong></td>
+      <td><strong>13.05 [12.0, 13.6]</strong></td>
+      <td><u>23.53 [12.1, 32.9]</u></td>
+      <td><u>9.50 [7.6, 11.2]</u></td>
+    </tr>
+
+    <tr>
+      <td rowspan="5">III-2862 (OOD)</td>
+      <td>Clinician</td>
+      <td>5.77 [5.2, 6.3]</td>
+      <td>14.92 [13.3, 16.7]</td>
+      <td>5.90 [4.3, 7.6]</td>
+    </tr>
+    <tr>
+      <td>AI Clinician</td>
+      <td>6.39 [-9.5, 12.8]</td>
+      <td>14.25 [-2.9, 29.4]</td>
+      <td><u>9.91 [7.3, 13.0]</u></td>
+    </tr>
+    <tr>
+      <td>DDQN</td>
+      <td>6.03 [1.0, 10.3]</td>
+      <td>14.56 [9.9, 20.1]</td>
+      <td>7.03 [-11.6, 19.5]</td>
+    </tr>
+    <tr>
+      <td>WD3QNE</td>
+      <td><u>9.16 [-1.4, 12.8]</u></td>
+      <td><strong>18.67 [8.4, 27.9]</strong></td>
+      <td>6.40 [-1.5, 13.3]</td>
+    </tr>
+    <tr>
+      <td><strong>SepsisAgent(ours)</strong></td>
+      <td><strong>11.50 [2.6, 14.0]</strong></td>
+      <td><u>16.22 [6.2, 26.7]</u></td>
+      <td><strong>10.08 [3.1, 17.5]</strong></td>
+    </tr>
+  </tbody>
+</table>
 
 
 |WorldModel|Method|Survival(%)|Avg Reward|
