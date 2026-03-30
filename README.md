@@ -1,5 +1,7 @@
 # ICML-rebuttal
 
+### Table 1
+
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
     <tr>
@@ -76,6 +78,7 @@
   </tbody>
 </table>
 
+### Table 2
 
 |WorldModel|Method|Sinsrvival(%)|Avg Reward|
 |---|---|---:|---:|
