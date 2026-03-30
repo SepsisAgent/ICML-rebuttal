@@ -12,3 +12,16 @@
 ||DDQN|6.03[1.0,10.3]|14.56[9.9,20.1]|7.03[-11.6,19.5]|
 ||WD3QNE|9.16[-1.4,12.8]\#2|**18.67[8.4,27.9]\#1**|6.40[-1.5,13.3]|
 ||SepsisAgent(ours)|**11.50[2.6,14.0]\#1**|16.22[6.2,26.7]\#2|**10.08[3.1,17.5]\#1**|
+
+
+|WorldModel|Method|Survival(%)|Avg Reward|
+|---|---|---:|---:|
+|GRU|SepsisAgent(StageI:Alignment)|54.07|1.73|
+||SepsisAgent(StageII:BehaviorCloning)|55.72|2.38|
+||SepsisAgent(StageIII:RL)|60.41|3.73|
+|LSTM|SepsisAgent(StageI:Alignment)|60.28|3.37|
+||SepsisAgent(StageII:BehaviorCloning)|65.06|5.14|
+||SepsisAgent(StageIII:RL)|65.66|5.15|
+|Transformer|SepsisAgent(StageI:Alignment)|67.45|5.93|
+||SepsisAgent(StageII:BehaviorCloning)|68.14|6.33|
+||SepsisAgent(StageIII:RL)|70.44|7.01|
