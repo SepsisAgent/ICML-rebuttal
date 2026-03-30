@@ -79,7 +79,7 @@
 
 |WorldModel|Method|Sinsrvival(%)|Avg Reward|
 |---|---|---:|---:|
-|GRins|SepsisAgent(StageI:Alignment)|54.07|1.73|
+|GRU|SepsisAgent(StageI:Alignment)|54.07|1.73|
 ||SepsisAgent(StageII:BehaviorCloning)|55.72|2.38|
 ||SepsisAgent(StageIII:RL)|60.41|3.73|
 |LSTM|SepsisAgent(StageI:Alignment)|60.28|3.37|
