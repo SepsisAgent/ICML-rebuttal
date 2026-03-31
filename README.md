@@ -80,7 +80,7 @@
 
 ### Table 2
 
-|WorldModel|Method|Sinsrvival(%)|Avg Reward|
+|WorldModel|Method|Survival(%)|Avg Reward|
 |---|---|---:|---:|
 |GRU|SepsisAgent(StageI:Alignment)|54.07|1.73|
 ||SepsisAgent(StageII:BehaviorCloning)|55.72|2.38|
